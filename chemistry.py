@@ -110,7 +110,16 @@ def findrecipe(target, amount, exactly):
         # lasy but just use first reaction we can find
         if "results" in react:
             for result in react["results"]:
+                requires_self = False
                 if target["id"] == result:
+                    # check to make sure this ingredient isn't also part of the requirements
+                    if "required_reagents" in react:
+                        for required in react["required_reagents"]:
+                            if target["id"] == required:
+                                requires_self = True
+                                break
+                    if requires_self:
+                        continue
                     recipe = react.copy()
                     amountmulti = math.ceil(amount / float(recipe["results"][result]) / 5) * 5
                     break
