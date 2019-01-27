@@ -660,6 +660,12 @@
         "dispensable":false
     },
     {
+        "typepath":"/datum/reagent/consumable/ethanol/blank_paper",
+        "id":"blank_paper",
+        "name":"Blank Paper",
+        "dispensable":false
+    },
+    {
         "typepath":"/datum/reagent/consumable/ethanol/fruit_wine",
         "id":"fruit_wine",
         "name":"Fruit Wine",
@@ -1074,6 +1080,12 @@
         "dispensable":false
     },
     {
+        "typepath":"/datum/reagent/drug/happiness",
+        "id":"happiness",
+        "name":"Happiness",
+        "dispensable":false
+    },
+    {
         "typepath":"/datum/reagent/consumable/nutriment",
         "id":"nutriment",
         "name":"Nutriment",
@@ -1296,6 +1308,12 @@
         "dispensable":false
     },
     {
+        "typepath":"/datum/reagent/consumable/liquidelectricity",
+        "id":"liquidelectricity",
+        "name":"Liquid Electricity",
+        "dispensable":false
+    },
+    {
         "typepath":"/datum/reagent/medicine/leporazine",
         "id":"leporazine",
         "name":"Leporazine",
@@ -1308,9 +1326,9 @@
         "dispensable":false
     },
     {
-        "typepath":"/datum/reagent/medicine/adminordrazine/nanites",
-        "id":"nanites",
-        "name":"Nanites",
+        "typepath":"/datum/reagent/medicine/adminordrazine/quantum_heal",
+        "id":"quantum_heal",
+        "name":"Quantum Medicine",
         "dispensable":false
     },
     {
@@ -1488,6 +1506,12 @@
         "dispensable":false
     },
     {
+        "typepath":"/datum/reagent/medicine/neurine",
+        "id":"neurine",
+        "name":"Neurine",
+        "dispensable":false
+    },
+    {
         "typepath":"/datum/reagent/medicine/mutadone",
         "id":"mutadone",
         "name":"Mutadone",
@@ -1572,9 +1596,9 @@
         "dispensable":false
     },
     {
-        "typepath":"/datum/reagent/medicine/miningnanites",
-        "id":"miningnanites",
-        "name":"Nanites",
+        "typepath":"/datum/reagent/medicine/lavaland_extract",
+        "id":"lavaland_extract",
+        "name":"Lavaland Extract",
         "dispensable":false
     },
     {
@@ -1605,6 +1629,12 @@
         "typepath":"/datum/reagent/medicine/modafinil",
         "id":"modafinil",
         "name":"Modafinil",
+        "dispensable":false
+    },
+    {
+        "typepath":"/datum/reagent/medicine/psicodine",
+        "id":"psicodine",
+        "name":"Psicodine",
         "dispensable":false
     },
     {
@@ -1665,6 +1695,12 @@
         "typepath":"/datum/reagent/mutationtoxin/classic",
         "id":"mutationtoxin",
         "name":"Mutation Toxin",
+        "dispensable":false
+    },
+    {
+        "typepath":"/datum/reagent/mutationtoxin/felinid",
+        "id":"felinidmutationtoxin",
+        "name":"Felinid Mutation Toxin",
         "dispensable":false
     },
     {
@@ -1830,6 +1866,12 @@
         "dispensable":false
     },
     {
+        "typepath":"/datum/reagent/uranium/radium",
+        "id":"radium",
+        "name":"Radium",
+        "dispensable":true
+    },
+    {
         "typepath":"/datum/reagent/silicon",
         "id":"silicon",
         "name":"Silicon",
@@ -1866,7 +1908,7 @@
         "dispensable":false
     },
     {
-        "typepath":"/datum/reagent/nanites",
+        "typepath":"/datum/reagent/nanomachines",
         "id":"nanomachines",
         "name":"Nanomachines",
         "dispensable":false
@@ -2226,6 +2268,12 @@
         "dispensable":false
     },
     {
+        "typepath":"/datum/reagent/tranquility",
+        "id":"tranquility",
+        "name":"Tranquility",
+        "dispensable":false
+    },
+    {
         "typepath":"/datum/reagent/thermite",
         "id":"thermite",
         "name":"Thermite",
@@ -2325,6 +2373,12 @@
         "typepath":"/datum/reagent/toxin/zombiepowder",
         "id":"zombiepowder",
         "name":"Zombie Powder",
+        "dispensable":false
+    },
+    {
+        "typepath":"/datum/reagent/toxin/ghoulpowder",
+        "id":"ghoulpowder",
+        "name":"Ghoul Powder",
         "dispensable":false
     },
     {
@@ -2544,6 +2598,12 @@
         "dispensable":false
     },
     {
+        "typepath":"/datum/reagent/toxin/bonehurtingjuice",
+        "id":"bonehurtingjuice",
+        "name":"Bone Hurting Juice",
+        "dispensable":false
+    },
+    {
         "typepath":"/datum/reagent/consumable/ethanol/impalco",
         "id":"impalco",
         "name":"Impure Superhol",
@@ -2665,9 +2725,8 @@
     },
     {
         "typepath":"/datum/reagent/radium",
-        "id":"radium",
-        "name":"Radium",
-        "dispensable":true
+        "id":"UNKNOWN",
+        "dispensable":false
     },
     {
         "typepath":"/datum/reagent/lube",
@@ -2757,6 +2816,12 @@
         "typepath":"/datum/reagent/consumable/soymilk",
         "id":"soymilk",
         "name":"Soy Milk",
+        "dispensable":false
+    },
+    {
+        "typepath":"/datum/reagent/consumable/grey_bull",
+        "id":"grey_bull",
+        "name":"Reuben Blast",
         "dispensable":false
     },
     {

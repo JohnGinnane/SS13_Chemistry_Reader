@@ -1391,6 +1391,19 @@
         }
     },
     {
+        "typepath":"/datum/chemical_reaction/blank_paper",
+        "id":"blank_paper",
+        "name":"Blank Paper",
+        "results":{
+            "blank_paper":"3"
+        },
+        "required_reagents":{
+            "silencer":"1",
+            "nothing":"1",
+            "nuka_cola":"1"
+        }
+    },
+    {
         "typepath":"/datum/chemical_reaction/tofu",
         "id":"tofu",
         "name":"Tofu",
@@ -1662,6 +1675,22 @@
             "epinephrine":"1",
             "atropine":"1",
             "morphine":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/happiness",
+        "id":"happiness",
+        "name":"Happiness",
+        "results":{
+            "happiness":"4"
+        },
+        "required_reagents":{
+            "nitrous_oxide":"2",
+            "epinephrine":"1",
+            "ethanol":"1"
+        },
+        "required_catalysts":{
+            "plasma":"5"
         }
     },
     {
@@ -2023,6 +2052,19 @@
         }
     },
     {
+        "typepath":"/datum/chemical_reaction/neurine",
+        "id":"neurine",
+        "name":"Neurine",
+        "results":{
+            "neurine":"3"
+        },
+        "required_reagents":{
+            "mannitol":"1",
+            "acetone":"1",
+            "oxygen":"1"
+        }
+    },
+    {
         "typepath":"/datum/chemical_reaction/mutadone",
         "id":"mutadone",
         "name":"Mutadone",
@@ -2197,6 +2239,19 @@
         },
         "required_catalysts":{
             "bromine":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/psicodine",
+        "id":"psicodine",
+        "name":"Psicodine",
+        "results":{
+            "psicodine":"5"
+        },
+        "required_reagents":{
+            "mannitol":"2",
+            "water":"2",
+            "impedrezene":"1"
         }
     },
     {
@@ -3427,7 +3482,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/grey",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeinaprov",
@@ -3439,7 +3494,7 @@
         "required_reagents":{
             "water":"5"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/grey"
     },
     {
@@ -3450,7 +3505,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/grey",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimemutate",
@@ -3462,7 +3517,7 @@
         "required_reagents":{
             "plasma":"1"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/green"
     },
     {
@@ -3475,7 +3530,7 @@
         "required_reagents":{
             "blood":"1"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/green"
     },
     {
@@ -3486,7 +3541,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/metal",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeglass",
@@ -3496,7 +3551,7 @@
             "water":"1"
         },
         "required_container":"/obj/item/slime_extract/metal",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimemobspawn",
@@ -3506,7 +3561,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/gold",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimemobspawn/lesser",
@@ -3532,7 +3587,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/silver",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimebork/drinks",
@@ -3553,7 +3608,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/blue",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimestabilizer",
@@ -3563,7 +3618,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/blue",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimefoam",
@@ -3577,7 +3632,7 @@
             "water":"5"
         },
         "required_container":"/obj/item/slime_extract/blue",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimefreeze",
@@ -3587,7 +3642,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/darkblue",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimefireproof",
@@ -3597,7 +3652,7 @@
             "water":"1"
         },
         "required_container":"/obj/item/slime_extract/darkblue",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimecasp",
@@ -3610,7 +3665,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/orange",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimefire",
@@ -3620,7 +3675,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/orange",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimesmoke",
@@ -3635,7 +3690,7 @@
             "water":"5"
         },
         "required_container":"/obj/item/slime_extract/orange",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeoverload",
@@ -3645,7 +3700,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/yellow",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimecell",
@@ -3655,7 +3710,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/yellow",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeglow",
@@ -3665,7 +3720,7 @@
             "water":"1"
         },
         "required_container":"/obj/item/slime_extract/yellow",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimepsteroid",
@@ -3675,7 +3730,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/purple",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeregen",
@@ -3688,7 +3743,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/purple",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeplasma",
@@ -3698,7 +3753,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/darkpurple",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimemutator",
@@ -3708,7 +3763,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/red",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimebloodlust",
@@ -3718,7 +3773,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/red",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimespeed",
@@ -3728,7 +3783,7 @@
             "water":"1"
         },
         "required_container":"/obj/item/slime_extract/red",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/docility",
@@ -3738,7 +3793,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/pink",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/gender",
@@ -3748,7 +3803,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/pink",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimemutate2",
@@ -3760,7 +3815,7 @@
         "required_reagents":{
             "plasma":"1"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/black"
     },
     {
@@ -3771,7 +3826,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/oil",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimecornoil",
@@ -3784,7 +3839,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/oil",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimepotion2",
@@ -3794,7 +3849,17 @@
         "required_reagents":{
             "plasma":"1"
         },
-        "required_other":"1"
+        "required_other":"TRUE"
+    },
+    {
+        "typepath":"/datum/chemical_reaction/slime/renaming",
+        "id":"m_renaming_potion",
+        "name":"Renaming Potion",
+        "required_container":"/obj/item/slime_extract/lightpink",
+        "required_reagents":{
+            "water":"1"
+        },
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/adamantine",
@@ -3804,17 +3869,17 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/adamantine",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimefloor2",
         "id":"m_floor2",
-        "name":"Bluespace floor",
+        "name":"Bluespace Floor",
         "required_reagents":{
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/bluespace",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimecrystal",
@@ -3824,7 +3889,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/bluespace",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeradio",
@@ -3834,7 +3899,7 @@
             "water":"1"
         },
         "required_container":"/obj/item/slime_extract/bluespace",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimepsteroid2",
@@ -3844,7 +3909,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/cerulean",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slime_territory",
@@ -3854,7 +3919,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/cerulean",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimestop",
@@ -3864,7 +3929,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/sepia",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimecamera",
@@ -3874,17 +3939,17 @@
             "water":"1"
         },
         "required_container":"/obj/item/slime_extract/sepia",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimefloor",
         "id":"m_floor",
-        "name":"Sepia floor",
+        "name":"Sepia Floor",
         "required_reagents":{
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/sepia",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimepaint",
@@ -3894,7 +3959,7 @@
             "plasma":"1"
         },
         "required_container":"/obj/item/slime_extract/pyrite",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimecrayon",
@@ -3904,7 +3969,7 @@
             "blood":"1"
         },
         "required_container":"/obj/item/slime_extract/pyrite",
-        "required_other":"1"
+        "required_other":"TRUE"
     },
     {
         "typepath":"/datum/chemical_reaction/slime/slimeRNG",
@@ -3913,7 +3978,7 @@
         "required_reagents":{
             "plasma":"1"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/rainbow"
     },
     {
@@ -3923,7 +3988,7 @@
         "required_reagents":{
             "slimejelly":"1"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/rainbow"
     },
     {
@@ -3933,7 +3998,7 @@
         "required_reagents":{
             "blood":"1"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/rainbow"
     },
     {
@@ -3944,7 +4009,7 @@
             "holywater":"5",
             "uranium":"5"
         },
-        "required_other":"1",
+        "required_other":"TRUE",
         "required_container":"/obj/item/slime_extract/rainbow"
     },
     {
@@ -4107,6 +4172,18 @@
         }
     },
     {
+        "typepath":"/datum/chemical_reaction/ghoulpowder",
+        "id":"ghoulpowder",
+        "name":"Ghoul Powder",
+        "results":{
+            "ghoulpowder":"2"
+        },
+        "required_reagents":{
+            "zombiepowder":"1",
+            "epinephrine":"1"
+        }
+    },
+    {
         "typepath":"/datum/chemical_reaction/mindbreaker",
         "id":"mindbreaker",
         "name":"Mindbreaker Toxin",
@@ -4183,6 +4260,19 @@
             "radium":"1",
             "mutetoxin":"1",
             "nothing":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/bonehurtingjuice",
+        "id":"bonehurtingjuice",
+        "name":"Bone Hurting Juice",
+        "results":{
+            "bonehurtingjuice":"5"
+        },
+        "required_reagents":{
+            "mutagen":"1",
+            "itching_powder":"3",
+            "milk":"1"
         }
     },
     {
@@ -4737,6 +4827,70 @@
             "plasma":"1"
         },
         "required_temp":"400"
+    },
+    {
+        "typepath":"/datum/chemical_reaction/reagent_explosion/remove_all",
+        "id":"UNKNOWN"
+    },
+    {
+        "typepath":"/datum/chemical_reaction/reagent_explosion/remove_all/meth_a",
+        "id":"UNKNOWN",
+        "name":"Meth Collapse",
+        "required_catalysts":{
+            "methamphetamine":"1",
+            "smoke_powder":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/reagent_explosion/remove_all/meth_b",
+        "id":"UNKNOWN",
+        "name":"Meth Collapse",
+        "required_catalysts":{
+            "methamphetamine":"1",
+            "potassium":"1",
+            "sugar":"1",
+            "phosphorus":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/reagent_explosion/remove_all/blackpowder_a",
+        "id":"UNKNOWN",
+        "name":"Black Powder Collapse",
+        "required_catalysts":{
+            "blackpowder":"1",
+            "smoke_powder":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/reagent_explosion/remove_all/blackpowder_b",
+        "id":"UNKNOWN",
+        "name":"Black Powder Collapse",
+        "required_catalysts":{
+            "blackpowder":"1",
+            "potassium":"1",
+            "sugar":"1",
+            "phosphorus":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/reagent_explosion/remove_all/superboom_a",
+        "id":"UNKNOWN",
+        "name":"N-amino azidotetrazole Collapse",
+        "required_catalysts":{
+            "superboom":"1",
+            "smoke_powder":"1"
+        }
+    },
+    {
+        "typepath":"/datum/chemical_reaction/reagent_explosion/remove_all/superboom_b",
+        "id":"UNKNOWN",
+        "name":"N-amino azidotetrazole Collapse",
+        "required_catalysts":{
+            "superboom":"1",
+            "potassium":"1",
+            "sugar":"1",
+            "phosphorus":"1"
+        }
     },
     {
         "typepath":"/datum/chemical_reaction/bone_hurting_juice",

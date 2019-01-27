@@ -35,13 +35,14 @@ def findchem(target, printsimilar = False):
     result = None
     similar = []
     for chem in chemicals:
-        if chem["id"] == target:
+        if "id" in chem and chem["id"] == target:
             return chem.copy()
-        elif chem["name"] == target:
+        elif "name" in chem and chem["name"] == target:
             return chem.copy()
         if not result:
             if chem["id"].find(target) >= 0 or chem["id"].lower() == target.lower():
                 similar.append(chem)
+
     if printsimilar and not result:
         if len(similar) == 1:
             return similar[0]
